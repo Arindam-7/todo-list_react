@@ -2,6 +2,9 @@ import React from 'react';
 
 
 const Form = () => {
+    const inputTextHandler = (e) => {
+        console.log(e);
+    }
     return(
         <form>
         <input type="text" className="todo-input" />
